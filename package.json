@@ -1,0 +1,27 @@
+{
+  "name": "rest-crud",
+  "description": "REST CRUD Example Node.js & Mysql",
+  "version": "0.0.1",
+  "private": true,
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "1.9.0",
+    "ejs": "^1.0.0",
+    "express": "4.9.5",
+    "express-myconnection": "*",
+    "express-validator": "^2.6.0",
+    "mysql": "*"
+  },
+  'node-inspector': {
+  custom: {
+    options: {
+      'web-port': 1337,
+      'web-host': 'localhost',
+      'debug-port': 5857,
+      'save-live-edit': true,
+      'no-preload': true,
+      'stack-trace-limit': 4
+		}
+	}
+	}
+}
