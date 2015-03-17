@@ -20,9 +20,9 @@ var connection  = require('express-myconnection'),
 
 app.use(connection(mysql,{
         host     : 'localhost',
-        user     : 'root',
-        password : '',
-        database : 'test',
+        user     : 'admin2qnwni6',
+        password : 'pkLMy5PJYUl7',
+        database : 'addressbook',
         debug    : false //set true if you wanna see debug logger
     },'request')
 );
@@ -30,8 +30,7 @@ app.use(connection(mysql,{
 app.get('/',function(req,res){
     res.send('Welcome sgs  fasdasf ');
 });
-
-
+ 
 //RESTful route
 var router = express.Router();
 
